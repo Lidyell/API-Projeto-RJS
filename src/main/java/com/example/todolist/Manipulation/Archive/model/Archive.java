@@ -1,10 +1,8 @@
 package com.example.todolist.Manipulation.Archive.model;
 
-
 import jakarta.persistence.*;
-import lombok.Data;
-import org.springframework.data.annotation.Id;
 import jakarta.validation.constraints.NotBlank;
+import lombok.Data;
 
 @Data
 @Table(name = "Tasks")
@@ -19,7 +17,5 @@ public class Archive {
     private String title;
 
     @NotBlank(message = "A descrição precisa estar preenchida")
-    private String descrition;
-
-
+    private String description;
 }

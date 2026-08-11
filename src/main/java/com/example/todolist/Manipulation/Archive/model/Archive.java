@@ -5,8 +5,8 @@ import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
 @Data
-@Table(name = "Tasks")
 @Entity
+@Table(name = "Tasks")
 public class Archive {
 
     @Id

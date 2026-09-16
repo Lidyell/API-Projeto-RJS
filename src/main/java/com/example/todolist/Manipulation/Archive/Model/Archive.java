@@ -1,4 +1,4 @@
-package com.example.todolist.Manipulation.Archive.model;
+package com.example.todolist.Manipulation.Archive.Model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;

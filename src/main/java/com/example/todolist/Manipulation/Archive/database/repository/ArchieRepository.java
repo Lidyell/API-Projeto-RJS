@@ -1,6 +1,6 @@
-package com.example.todolist.Manipulation.Archive.repository;
+package com.example.todolist.Manipulation.Archive.database.repository;
 
-import com.example.todolist.Manipulation.Archive.model.Archive;
+import com.example.todolist.Manipulation.Archive.database.model.Archive;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

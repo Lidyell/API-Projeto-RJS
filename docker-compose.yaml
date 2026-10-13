@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: todolist
+    ports:
+      - "${APP_PORT:-8088}:8088"
+    env_file:
+      - .env
+    restart: unless-stopped

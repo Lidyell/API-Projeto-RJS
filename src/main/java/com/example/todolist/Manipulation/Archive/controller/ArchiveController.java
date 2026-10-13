@@ -1,4 +1,4 @@
-package com.example.todolist.Manipulation.Archive;
+package com.example.todolist.Manipulation.Archive.controller;
 
 public class ArchiveController {
     public static void main(String[] args) {
